@@ -1,5 +1,5 @@
-import Link from "next/link";
 import "./globals.css";
+import AppNavigation from "./components/AppNavigation";
 
 export const metadata = {
   title: "Create Next App",
@@ -10,7 +10,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
-        <Link href="/">홈</Link> |<Link href="/login"> 로그인</Link>
+        <AppNavigation />
         {children}
       </body>
     </html>

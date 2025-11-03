@@ -1,0 +1,29 @@
+.link {
+    display: inline-block;
+    color: #0070f3;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 6px;
+    background-color: #f8f9fa;
+    border: 1px solid #d0d0d0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+/* Hover 시 강조 효과 */
+.link:hover {
+    color: #fff;
+    background-color: #0070f3;
+}
+
+/* Active 시 클릭 감각 강조 */
+.link:active {
+    color: #fff;
+    background-color: #0056b3;
+}
+
+/* Visited는 색상만 변경 */
+.link:visited {
+    color: #6f42c1;
+}
